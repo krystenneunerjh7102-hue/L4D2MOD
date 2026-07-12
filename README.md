@@ -4,17 +4,25 @@
 **Type / 类型：** Pure VScript gameplay addon / 纯 VScript 玩法模组  
 **Steam Workshop / 创意工坊：** https://steamcommunity.com/sharedfiles/filedetails/?id=3751981994
 
-## Latest public release / 最新公开版本
+## Download / 下载
+
+The verified public release will provide two separate assets in **GitHub Releases**:
+
+- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — runnable game package
+- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — complete source archive
+
+正式发布页将提供两个独立附件：
+
+- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — 可直接安装运行的游戏包
+- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — 完整源码压缩包
+
+The repository body is reserved for the expanded, human-readable source tree and documentation. Runnable VPK files should be downloaded from Releases instead of being mixed into the repository root.
+
+仓库正文用于展开后的可浏览源码与文档；可运行 VPK 放在 Releases 中，不与仓库根目录混放。
+
+## Latest version / 最新版本
 
 **v0.7.7 — Tongue Escape Public Release / 舌控挣脱正式版**
-
-This repository is being rebuilt as the clean public home for the verified XNP Airborne Triple Slash release. The repository body will contain verified source files only. Runnable VPK packages and verified SOURCE ZIP archives belong in GitHub Releases, not mixed into the repository root.
-
-本仓库正在重新整理为 XNP 空中三段斩的干净公开主页。仓库正文只放经过确认的源码；可运行 VPK 和经过确认的 SOURCE ZIP 应放在 GitHub Releases 中，不与仓库根目录混放。
-
-> The previously uploaded 22-file package has not been verified as fully identical to the actual in-game v0.7.7 build, so it must not be labeled as the complete v0.7.7 source.
->
-> 之前上传的 22 文件包尚未确认与游戏中实际运行的 v0.7.7 完全一致，因此不能标注为“完整 v0.7.7 源码”。
 
 ## Main features / 主要功能
 
@@ -43,6 +51,20 @@ This repository is being rebuilt as the clean public home for the verified XNP A
 - No VSLib required / 不需要 VSLib
 - Enable only one XNP melee gameplay addon at a time / 建议一次只启用一个 XNP 近战玩法模组
 
+## Installation / 安装
+
+Place the `.vpk` file in:
+
+```text
+Left 4 Dead 2/left4dead2/addons/
+```
+
+将 `.vpk` 放入：
+
+```text
+Left 4 Dead 2/left4dead2/addons/
+```
+
 ## Known limitations / 已知限制
 
 - Tank physical displacement can be limited by Source engine collision and map geometry.
@@ -50,21 +72,24 @@ This repository is being rebuilt as the clean public home for the verified XNP A
 - Tank 的物理位移可能受 Source 引擎碰撞和地图结构限制。
 - 替换相同 VScript 入口的其他模组可能发生冲突。
 
-## Release layout / 发布结构
+## Repository layout / 仓库结构
 
-Repository body / 仓库正文：
+```text
+SOURCE/                Expanded verified source / 展开的已核验源码
+README.md              Project home / 项目主页
+RELEASE_NOTES_v0.7.7.md
+```
 
-- Verified complete SOURCE only / 只放经过确认的完整 SOURCE
-- README and documentation / README 与说明文档
+Release assets / 发布附件：
 
-GitHub Releases：
-
-- Runnable `.vpk` / 可运行 `.vpk`
-- Verified SOURCE `.zip` / 经过确认的 SOURCE `.zip`
-- Bilingual release notes / 中英双语更新说明
+```text
+XNP_Airborne_Triple_Slash_v0.7.7.vpk
+XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip
+SHA256SUMS.txt
+```
 
 ## Status / 当前状态
 
-The repository landing page has been rebuilt. Release assets will only be added after their contents are verified against the actual v0.7.7 game build.
+The repository landing page and release notes are prepared. The final release assets must be generated from the verified v0.7.7 SOURCE and the confirmed runnable v0.7.7 VPK before publishing.
 
-仓库首页已重新建立。发布附件必须先与实际运行的 v0.7.7 进行核验，确认无误后再上传。
+仓库主页与发布说明已经整理。正式发布前，必须使用核验通过的 v0.7.7 SOURCE 和已确认可运行的 v0.7.7 VPK 生成最终附件。
