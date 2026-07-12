@@ -24,6 +24,14 @@ XNP Airborne Triple Slash v0.7.7 is a pure VScript melee gameplay addon for Left
 - Release Left Shift for Normal Dash.
 - When controlled by a Smoker tongue, press Left Shift once to actively escape.
 
+### Installation
+
+Download `XNP_Airborne_Triple_Slash_v0.7.7.vpk` and place it in:
+
+```text
+Left 4 Dead 2/left4dead2/addons/
+```
+
 ### Compatibility notes
 
 - Enable only one XNP melee gameplay addon at a time.
@@ -32,12 +40,9 @@ XNP Airborne Triple Slash v0.7.7 is a pure VScript melee gameplay addon for Left
 
 ### Release assets
 
-Attach only after verification against the actual in-game v0.7.7 build:
-
-- Runnable VPK
-- Verified complete SOURCE ZIP
-
-Do not label the previous unverified 22-file package as the complete v0.7.7 source.
+- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — runnable game package
+- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — complete source archive
+- `SHA256SUMS.txt` — integrity checksums
 
 ---
 
@@ -65,6 +70,14 @@ XNP 空中三段斩 v0.7.7 是《Left 4 Dead 2 / 求生之路 2》的纯 VScript
 - 松开 Left Shift 发动普通突进。
 - 被 Smoker 舌控时，按一次 Left Shift 主动挣脱。
 
+### 安装方法
+
+下载 `XNP_Airborne_Triple_Slash_v0.7.7.vpk`，放入：
+
+```text
+Left 4 Dead 2/left4dead2/addons/
+```
+
 ### 兼容性说明
 
 - 建议一次只启用一个 XNP 近战玩法模组。
@@ -73,9 +86,6 @@ XNP 空中三段斩 v0.7.7 是《Left 4 Dead 2 / 求生之路 2》的纯 VScript
 
 ### 发布附件
 
-必须先与游戏中实际运行的 v0.7.7 核验一致，再附加：
-
-- 可运行 VPK
-- 经过确认的完整 SOURCE ZIP
-
-之前未核验的 22 文件包不能标注为“完整 v0.7.7 源码”。
+- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — 可直接安装运行的游戏包
+- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — 完整源码压缩包
+- `SHA256SUMS.txt` — 完整性校验值
