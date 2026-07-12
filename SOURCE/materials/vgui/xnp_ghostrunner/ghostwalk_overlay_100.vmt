@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/xnp_ghostrunner/ghostwalk_overlay_100"
+    "$translucent" "1"
+    "$ignorez" "1"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+}

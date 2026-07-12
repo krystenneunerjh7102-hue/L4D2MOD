@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+    "addonSteamAppID"        "550"
+    "addontitle"             "XNP Airborne Triple Slash 0.7.7 Tongue Escape"
+    "addonversion"           "0.7.7-tongue-escape-public-release"
+    "addontagline"           "Ground dash, air triple slash, and active tongue escape"
+    "addonauthor"            "XNPHL"
+    "addonDescription"       "XNP Airborne Triple Slash adds ground dash activation, airborne triple slash, active Smoker tongue escape with Shift, charge HUD, fall protection, and special infected impact control."
+    "addonContent_Script"    "1"
+}
