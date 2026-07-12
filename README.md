@@ -9,7 +9,7 @@
 
 ## Release / 发布页
 
-**Current release title / 当前发布标题：**
+**Recommended release title / 建议发布标题：**
 
 `XNP Airborne Triple Slash v0.7.7 — Verified Source Release / XNP 空中三段斩 v0.7.7 — 已核验源码发布`
 
@@ -86,5 +86,5 @@ RELEASE_NOTES_v0.7.7.md         Release notes / 发布说明
 - SOURCE identity: confirmed / SOURCE 身份：已确认
 - Version: `0.7.7-tongue-escape-public-release`
 - Build marker: `GR_077_TONGUE_ESCAPE_PUBLIC_RELEASE_A`
-- Tag `v0.7.7`: points to the current `main` commit and includes `SOURCE/` / 标签已指向当前 `main`，并包含 `SOURCE/`
+- Tag `v0.7.7`: points to the verified source-tree commit and includes `SOURCE/` / 标签指向已核验源码树提交，并包含 `SOURCE/`
 - Runnable VPK equivalence: not yet verified / 可运行 VPK 等价性：尚未核验
