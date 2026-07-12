@@ -1,28 +1,34 @@
 # XNP Airborne Triple Slash v0.7.7 / XNP 空中三段斩 v0.7.7
 
 **Game / 游戏：** Left 4 Dead 2 / 求生之路 2  
+**Version / 版本：** `v0.7.7`  
+**Build / 构建标记：** `GR_077_TONGUE_ESCAPE_PUBLIC_RELEASE_A`  
 **Type / 类型：** Pure VScript gameplay addon / 纯 VScript 玩法模组  
+**Current release status / 当前发布状态：** Verified source published; runnable VPK pending / 已发布核验源码，可运行 VPK 待补充  
 **Steam Workshop / 创意工坊：** https://steamcommunity.com/sharedfiles/filedetails/?id=3751981994
 
-## Download / 下载
+## Release / 发布页
 
-The verified public release will provide two separate assets in **GitHub Releases**:
+**Current release title / 当前发布标题：**
 
-- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — runnable game package
-- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — complete source archive
+`XNP Airborne Triple Slash v0.7.7 — Verified Source Release / XNP 空中三段斩 v0.7.7 — 已核验源码发布`
 
-正式发布页将提供两个独立附件：
+Release page / 发布页：
 
-- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — 可直接安装运行的游戏包
-- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — 完整源码压缩包
+https://github.com/krystenneunerjh7102-hue/L4D2MOD/releases/tag/v0.7.7
 
-The repository body is reserved for the expanded, human-readable source tree and documentation. Runnable VPK files should be downloaded from Releases instead of being mixed into the repository root.
+### Available now / 当前可下载
 
-仓库正文用于展开后的可浏览源码与文档；可运行 VPK 放在 Releases 中，不与仓库根目录混放。
+- `XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip` — verified complete source archive / 已核验完整源码包
+- `SHA256SUMS.txt` — integrity checksum / 完整性校验值
+- GitHub-generated `Source code (zip)` and `Source code (tar.gz)` — repository snapshots containing `SOURCE/` / GitHub 自动生成且包含 `SOURCE/` 的仓库快照
 
-## Latest version / 最新版本
+### To be added / 待补充
 
-**v0.7.7 — Tongue Escape Public Release / 舌控挣脱正式版**
+- `XNP_Airborne_Triple_Slash_v0.7.7.vpk` — runnable game package / 可直接安装运行的游戏包
+
+The runnable VPK will be added only after the actual in-game v0.7.7 package is located and verified.  
+只有在找到并核验实际游戏中运行的 v0.7.7 包后，才会补充可运行 VPK。
 
 ## Main features / 主要功能
 
@@ -53,13 +59,8 @@ The repository body is reserved for the expanded, human-readable source tree and
 
 ## Installation / 安装
 
-Place the `.vpk` file in:
-
-```text
-Left 4 Dead 2/left4dead2/addons/
-```
-
-将 `.vpk` 放入：
+The runnable VPK is not included yet. After it is added to the release, place it in:  
+当前尚未附带可运行 VPK。后续补充后，将其放入：
 
 ```text
 Left 4 Dead 2/left4dead2/addons/
@@ -68,28 +69,22 @@ Left 4 Dead 2/left4dead2/addons/
 ## Known limitations / 已知限制
 
 - Tank physical displacement can be limited by Source engine collision and map geometry.
-- Other addons that replace the same VScript entry points may conflict.
+- Addons that replace the same VScript entry points may conflict.
 - Tank 的物理位移可能受 Source 引擎碰撞和地图结构限制。
 - 替换相同 VScript 入口的其他模组可能发生冲突。
 
 ## Repository layout / 仓库结构
 
 ```text
-SOURCE/                Expanded verified source / 展开的已核验源码
-README.md              Project home / 项目主页
-RELEASE_NOTES_v0.7.7.md
+SOURCE/                         Expanded verified source / 展开的已核验源码
+README.md                       Project home / 项目主页
+RELEASE_NOTES_v0.7.7.md         Release notes / 发布说明
 ```
 
-Release assets / 发布附件：
+## Verification / 核验状态
 
-```text
-XNP_Airborne_Triple_Slash_v0.7.7.vpk
-XNP_Airborne_Triple_Slash_v0.7.7_SOURCE.zip
-SHA256SUMS.txt
-```
-
-## Status / 当前状态
-
-The repository landing page and release notes are prepared. The final release assets must be generated from the verified v0.7.7 SOURCE and the confirmed runnable v0.7.7 VPK before publishing.
-
-仓库主页与发布说明已经整理。正式发布前，必须使用核验通过的 v0.7.7 SOURCE 和已确认可运行的 v0.7.7 VPK 生成最终附件。
+- SOURCE identity: confirmed / SOURCE 身份：已确认
+- Version: `0.7.7-tongue-escape-public-release`
+- Build marker: `GR_077_TONGUE_ESCAPE_PUBLIC_RELEASE_A`
+- Tag `v0.7.7`: points to the current `main` commit and includes `SOURCE/` / 标签已指向当前 `main`，并包含 `SOURCE/`
+- Runnable VPK equivalence: not yet verified / 可运行 VPK 等价性：尚未核验
